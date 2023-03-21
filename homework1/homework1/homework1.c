@@ -4,26 +4,26 @@ main(void) {
 
 
 
-	char name[15], school[30]; // name¿¡ ÀÌ¸§, school ¿¡ ÇĞ°ú¸í ÀúÀå
+	char name[15], school[30]; // nameì— ì´ë¦„, school ì— í•™ê³¼ëª… ì €ì¥
 
-	int birthday, schoolnumber; // birthday¿¡ »ı³â¿ùÀÏ, schoolnumber¿¡ ÇĞ¹ø ÀúÀå
+	int birthday, schoolnumber; // birthdayì— ìƒë…„ì›”ì¼, schoolnumberì— í•™ë²ˆ ì €ì¥
 
-	printf("ÀÌ¸§ ÀÔ·Â :"); 
+	printf("ì´ë¦„ ì…ë ¥ :"); 
 
-	scanf_s("%s", name, sizeof(name)); // ÀÌ¸§ ÀÔ·Â
+	scanf_s("%s", name, sizeof(name)); // ì´ë¦„ ì…ë ¥
 
-	printf("»ı³â¿ùÀÏ ÀÔ·Â :");
+	printf("ìƒë…„ì›”ì¼ ì…ë ¥ :");
 
-	scanf_s("%d", &birthday, sizeof(birthday)); // »ı³â¿ùÀÏ ÀÔ·Â
+	scanf_s("%d", &birthday, sizeof(birthday)); // ìƒë…„ì›”ì¼ ì…ë ¥
 
-	printf("ÇĞ¹ø ÀÔ·Â :");
+	printf("í•™ë²ˆ ì…ë ¥ :");
 
-	scanf_s("%d", &schoolnumber, sizeof(schoolnumber)); // ÇĞ¹ø ÀÔ·Â
+	scanf_s("%d", &schoolnumber, sizeof(schoolnumber)); // í•™ë²ˆ ì…ë ¥
 
-	printf("ÇĞ°ú ÀÔ·Â :");
+	printf("í•™ê³¼ ì…ë ¥ :");
 
-	scanf_s("%s", school, sizeof(school)); // ÇĞ°ú¸í ÀÔ·Â
+	scanf_s("%s", school, sizeof(school)); // í•™ê³¼ëª… ì…ë ¥
 
-	printf("\nÀÌ¸§ : %s\n»ı³â¿ùÀÏ : %d\nÇĞ¹ø : %d\nÇĞ°ú¸í : %s", name, birthday, schoolnumber, school); // ÀÌ¸§, »ı³â¿ùÀÏ, ÇĞ¹ø, ÇĞ°ú¸í Ãâ·Â
+	printf("\nì´ë¦„ : %s\nìƒë…„ì›”ì¼ : %d\ní•™ë²ˆ : %d\ní•™ê³¼ëª… : %s", name, birthday, schoolnumber, school); // ì´ë¦„, ìƒë…„ì›”ì¼, í•™ë²ˆ, í•™ê³¼ëª… ì¶œë ¥
 
 }
